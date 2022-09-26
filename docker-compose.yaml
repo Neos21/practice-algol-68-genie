@@ -1,0 +1,8 @@
+version: '3'
+services:
+  algol:
+    build: .
+    container_name: algol
+    volumes:
+      - .:/home/algol
+    tty: true
